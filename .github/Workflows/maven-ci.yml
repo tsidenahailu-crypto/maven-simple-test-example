@@ -24,3 +24,4 @@ jobs:
 
       - name: Build and Test with Maven
         run: mvn clean verify --no-transfer-progress
+        # Force GitHub to detect this workflow (remove this comment after it works)
